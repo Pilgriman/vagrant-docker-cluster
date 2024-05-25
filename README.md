@@ -59,7 +59,7 @@ Vagrant.configure("2") do |config|
     end
   end
 end
-
+```
 ### Substitua `<SEU_TOKEN>` pelo token de join do seu cluster Swarm.
 
 ## Executar o Cluster Swarm:
