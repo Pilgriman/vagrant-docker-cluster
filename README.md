@@ -4,9 +4,10 @@ Neste desafio de projeto, criaremos um Cluster Swarm local utilizando máquinas 
 
 ## Pré-requisitos:
 
+* Instalar o docker ou possuir o docker desktop instalado 
 * Instalar o Vagrant
 * Fazer o download de uma ferramenta de virtualização.
-  * Nesse caso, usamos VirtualBox. Mas há outras ferramentas como VMware, Hyper-V e Libvirt/KVM.
+  * Nesse caso, usamos o VirtualBox. Mas há outras ferramentas como VMware, Hyper-V e Libvirt/KVM.
 
   Links:
   * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
