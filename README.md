@@ -60,17 +60,20 @@ Vagrant.configure("2") do |config|
   end
 end
 
-* Substitua <SEU_TOKEN> pelo token de join do seu cluster Swarm.
+### Substitua `<SEU_TOKEN>` pelo token de join do seu cluster Swarm.
 
-# Executar o Cluster Swarm:  
-* Após a execução do comando anterior, verifique se o cluster Swarm foi criado corretamente executando o comando vagrant ssh master para acessar a máquina master e em seguida execute docker node ls para listar os nós do cluster.
+## Executar o Cluster Swarm:
 
-# Conclusão:
+* Após a execução do comando anterior, verifique se o cluster Swarm foi criado corretamente executando o comando `vagrant ssh master` para acessar a máquina `master` e em seguida execute `docker node ls` para listar os nós do cluster.
+
+## Conclusão:
+
 * Com isso, você terá um Cluster Swarm local configurado e pronto para uso, utilizando o Vagrant para facilitar o processo de criação e gerenciamento das máquinas virtuais.
 
-PS: Para conferir via console o resultado da execução acima : 
+### PS: Para conferir via console o resultado da execução acima:
 
-* Use o comando docker node ls, conforme ilustrado abaixo:
+* Use o comando `docker node ls`, conforme ilustrado abaixo:
 
- ![image](https://github.com/Pilgriman/vagrant-docker-cluster/assets/62913993/fc2b5134-fa1d-4889-a449-d4f5ccb24a2c)
+![image](https://github.com/Pilgriman/vagrant-docker-cluster/assets/62913993/2b23e72f-611d-4a54-957d-28bb3cb717d5)
+
 
