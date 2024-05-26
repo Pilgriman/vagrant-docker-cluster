@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
         vb.memory = "1024"
         vb.cpus = 1
       end
-      # Provisionamento para instalar o Docker na máquina node01
+      # Provisionamento para instalar o Docker na máquina node02
       node.vm.provision "shell", path: "docker.sh"
       node.vm.provision "shell", inline: "docker swarm join --token <SEUTOKEN>"
     end
@@ -51,7 +51,7 @@ Vagrant.configure("2") do |config|
         vb.memory = "1024"
         vb.cpus = 1
       end
-      # Provisionamento para instalar o Docker na máquina node01
+      # Provisionamento para instalar o Docker na máquina node03
       node.vm.provision "shell", path: "docker.sh"
       node.vm.provision "shell", inline: "docker swarm join --token <SEUTOKEN>"
       
